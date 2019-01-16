@@ -1,0 +1,18 @@
+0: Echo = 52, Trig = 53
+1: Echo = 50, Trig = 51 
+2: Echo = 48, Trig = 49
+3: Echo = 46, Trig = 47
+4: Echo = 44, Trig = 45
+5: Echo = 42, Trig = 43
+6: Echo = 40, Trig = 41
+
+0: Orange
+1: Light Green
+2: Pink
+3: Yellow
+4: Blue
+5: Red
+6: Dark Green
+
+int lower_cutoffs[7] = {310, 270, 290, 290, 300, 300, 285};  
+int upper_cutoffs[7] = {370, 400, 400, 400, 400, 400, 400};

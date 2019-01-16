@@ -1,0 +1,4 @@
+const char * chosePhrases[14] = {"This column looks good!", "This is a tasty move", ":) How about this choice", "I'll try my luck here", "This move is very calculated", "This one will confuse you", "I think I've chosen", "I choose to go here", "How about I move here", "What about this one?", "Hahahaha this choice is great", "Wow, I'm so smart", "Here's a good move", "How about I go here"};
+
+Bad Phrases:
+I can't believe it took me that long! : second half too long by 5 chars = "long!"

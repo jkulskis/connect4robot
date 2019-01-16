@@ -1,0 +1,3 @@
+const char * phrases[15] = {"I need to think a little", "Oh you think you're clever", "I wonder what I'll do next", "Some moves can't be rushed", "Where will I go?", "Nice try, buster", "All of these possibilities...", "I love all the possibilities", "Wow this is a big board", "Hmmmm...", "What will happen next?", "Let me reach into my noggin", "Hahahah you're clever", "Interesting...", "What a play!"}
+
+Bad Phrases:
