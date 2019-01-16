@@ -2,7 +2,9 @@
 
 This robot is made structurally out of wood and programmed with an Arduino board. It communicates with a python program on the computer so that you can play connect 4 against it.
 
-# Table of Contents
+
+
+## Table of Contents
 - [Introduction](#introduction)
 - [The Python Code](#the-python-code)
   - [Board](#board)
