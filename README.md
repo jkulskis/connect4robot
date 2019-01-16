@@ -1,8 +1,40 @@
-[TOC]
-
 # The ConnectoBot
 
 This robot is made structurally out of wood and programmed with an Arduino board. It communicates with a python program on the computer so that you can play connect 4 against it.
+
+# Table of Contents
+- [Introduction](#introduction)
+- [The Python Code](#the-python-code)
+  - [Board](#board)
+  - [Arduino](#arduino)
+  - [Player](#player)
+  - [AIPlayer](#aiplayer)
+  - [Main](#main)
+  - [LCD Phrase Checker](#lcd-phrase-checker)
+- [Designing a Model](#designing-a-model)
+  - [General Ideas](#general-ideas)
+    - [Choosing the Correct Column on a Move](#choosing-the-correct-column-on-a-move)
+    - [Dispenser System](#dispenser-system)
+    - [Detecting the User's Move](#detecting-the-users-move)
+    - [User Accessibility](#user-accessibility)
+  - [General Designing Challenges](#general-designing-challenges)
+- [Building the Model](#building-the-model)
+  - [Cutting the Wood](#cutting-the-wood)
+  - [Creating the Holes for the Board](#creating-the-holes-for-the-board)
+  - [Gluing and Sanding](#gluing-and-sanding)
+  - [Belt and Spool](#belt-and-spool)
+  - [Motor Power Supply](#motor-power-supply)
+  - [Sensor Mount](#sensor-mount)
+  - [Dispenser](#dispenser)
+  - [The Rest of the Components](#the-rest-of-the-components)
+- [The Arduino Code](#the-arduino-code)
+  - [Checking the Columns for a User Move](#checking-the-columns-for-a-user-move)
+  - [Moving the Belt Over the Correct Column](#moving-the-belt-over-the-correct-column)
+  - [Printing on the 16x2 LCD](#printing-on-the-16x2-lcd)
+  - [Navigating the Serial](#navigating-the-serial)
+  - [The Remaining Code](#the-remaining-code)
+- [Next Steps](#next-steps)
+- [Materials and Parts Used](#materials-and-parts-used)
 
 
 
@@ -118,7 +150,7 @@ Although there were a few hard to glue pieces, everything went pretty smoothly w
 
 To create the belt that runs along the ramp, I stuck two pieces of my trusty pink duct tape together and ran some fishing line through the middle of it so that I could pull it easily with a motor. I decided to connect the fishing line to a thread spool superglued to a a colored pencil, which I fastened to my motor with a shaft coupler. Pictures of the belt and spool/pencil mount are below.
 
-​	![Pencil and Spool](readme/pencilAndSpool.JPG) ![Belt](readme/belt.JPG)
+	![Pencil and Spool](readme/pencilAndSpool.JPG) ![Belt](readme/belt.JPG)
 
 
 
@@ -230,4 +262,3 @@ Electronics:
 Other:
 
 - (2) WE Games Checkers Pieces in Black and Red Wood (comes with 12 checkers of each color)
-
