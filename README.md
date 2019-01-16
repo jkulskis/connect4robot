@@ -152,7 +152,7 @@ Although there were a few hard to glue pieces, everything went pretty smoothly w
 
 To create the belt that runs along the ramp, I stuck two pieces of my trusty pink duct tape together and ran some fishing line through the middle of it so that I could pull it easily with a motor. I decided to connect the fishing line to a thread spool superglued to a a colored pencil, which I fastened to my motor with a shaft coupler. Pictures of the belt and spool/pencil mount are below.
 
-	![Pencil and Spool](readme/pencilAndSpool.JPG) ![Belt](readme/belt.JPG)
+![Pencil and Spool](readme/pencilAndSpool.JPG) ![Belt](readme/belt.JPG)
 
 
 
