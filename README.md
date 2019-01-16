@@ -46,9 +46,9 @@ The LCD phrase checker figures out if a list of phrases given in a text file wil
 
 Designing a model was definitely one of the greater learning curves of this project. I decided to use SketchUp as a 3d modeling software to plan everything out, which made the cutting and building much easier later on. I started off by creating a rough model around the end of December, and this continued to change and develop until I finished my final model near the start of January, which can be found [here, uploaded to SketchUp's 3D Warehouse.](https://3dwarehouse.sketchup.com/model/7e1a40ce-af88-498d-99ae-3c84cc27af6c/Connect-4-Robot-Final-Model) I've included a couple 2D render images that show the board from the front with and without the face.
 
-![Final Model 2D Render](readme\finalModel.jpg)
+![Final Model 2D Render](readme/finalModel.jpg)
 
-![Final Model without Face](C:\Users\jmiku\Desktop\gitConnect4\readme\finalModel_hiddenFace.jpg)
+![Final Model without Face](readme/finalModel_hiddenFace.jpg)
 
 ### General Ideas
 
@@ -88,7 +88,7 @@ Most of the model was built by using plywood and wooden blocks, and I didn't kno
 
 We started off the build by cutting all of the wood to the dimensions that I had in the model of the board. Big thanks again to my dad, who did most of the cutting, especially since we didn't have all of the right tools. Although woodworking is fun, I've learned how hard it is to accurately cut out pieces of wood when everything is down to the millimeter. One of the hard cuts in particular was creating a channel for the tape belt to run through. We needed to do a slanted cut on 3 of the boards, which had to be done by hand on the table saw without a guider since we didn't have a working protractor guider.
 
-![Hard Diagonal Cut feat. my dad](readme\diagonal_cut_dad.JPG)
+![Hard Diagonal Cut feat. my dad](readme/diagonal_cut_dad.JPG)
 
 The only other cutting that was involved in this project was cutting out the dispenser parts, which I did after I finished assembling the board and getting it to work.
 
@@ -96,19 +96,19 @@ The only other cutting that was involved in this project was cutting out the dis
 
 To make the holes for the board we used a 3/4 inch drill bit, which worked nicely to make the checkers visible but not take out too much wood from the board. After the project was finished, the checkers weren't perfectly visible, so if I did this part over again I would use a slightly larger drill bit.
 
-![Me Drilling](readme\me_drillBit.JPG)	![Me Drilling](readme\dad_drillBit.JPG)
+![Me Drilling](readme/me_drillBit.JPG)	![Me Drilling](readme/dad_drillBit.JPG)
 
 ### Gluing and Sanding
 
 Most of the parts of the board needed a good sanding, and it really improved how everything looked in the final outcome. I took a picture of the face board when it was sanded compared to the back face to show the sharp contrast
 
-![Sanding Contrast](readme\sanding_difference.JPG)
+![Sanding Contrast](readme/sanding_difference.JPG)
 
 After sanding the parts down I needed to do a series of glues to keep all the parts together. For some of the glues I was able to keep the wood connected with pressure by using small nails, but other times you really just have to use whatever is available since there were no wood clamps available, whether it be a box of nails, or a hammer on top of the wood being balanced by a spare Heely. Again, big thanks to my dad for teaching and helping me with some of the more conventional gluing methods.
 
 
 
-![Weird Glue 1](readme\weird_glue1.JPG)	![Weird Glue 2](readme\weird_glue2.JPG)
+![Weird Glue 1](readme/weird_glue1.JPG)	![Weird Glue 2](readme/weird_glue2.JPG)
 
 Although there were a few hard to glue pieces, everything went pretty smoothly with this step in the project.
 
@@ -118,7 +118,7 @@ Although there were a few hard to glue pieces, everything went pretty smoothly w
 
 To create the belt that runs along the ramp, I stuck two pieces of my trusty pink duct tape together and ran some fishing line through the middle of it so that I could pull it easily with a motor. I decided to connect the fishing line to a thread spool superglued to a a colored pencil, which I fastened to my motor with a shaft coupler. Pictures of the belt and spool/pencil mount are below.
 
-​	![Pencil and Spool](readme\pencilAndSpool.JPG) ![Belt](readme\belt.JPG)
+​	![Pencil and Spool](readme/pencilAndSpool.JPG) ![Belt](readme/belt.JPG)
 
 
 
@@ -130,7 +130,7 @@ I started off by soldering some 9v battery cases for my 2 motors' power supplies
 
 The sensor mount I built is a thin strip of plywood that connects magnetically to the board. I didn't want to glue or permanently connect the sensor mount to the board, since I figured that I would need to disconnect some sensors or do maintenance over time. 
 
-![Sensor Mount](readme\sensor_mount.JPG)
+![Sensor Mount](readme/sensor_mount.JPG)
 
 While I was trying to mount the ultrasonic sensors, I realized that I had no screws which could fit in the holes on the sensor boards. To fix this, I used some standard thumbtacks to hold them in. Unfortunately, the tops of the thumbtacks got in the way of the mount and I didn't have flatter thumbtacks at the time, so I needed to individually clip each of the thumbtacks' heads off with plyers to create a snug fit.
 
@@ -138,11 +138,11 @@ While I was trying to mount the ultrasonic sensors, I realized that I had no scr
 
 One of the main challenges with the dispenser was figuring out the best way to connect the PVC pipe that holds the checkers and making a consistent pusher to slice a checker from the bottom of the pipe. I connected the PVC to the wood by using larger PVC pieces as clips and then screwing them into the wood block I wanted the PVC to attach to.
 
-![PVC Connector](readme\pvc_connector.JPG)
+![PVC Connector](readme/pvc_connector.JPG)
 
 I also made a quick gif image to showcase the dispenser up close in action. I controlled the pusher with my hand in this example, but during a game the motor underneath the pusher moves it, which is connected with a coupler and a nail.
 
-![Pusher Example](readme\pusher_example.gif)
+![Pusher Example](readme/pusher_example.gif)
 
 I also had a problem with the checkers getting stuck together since they are made to stack, but I fixed this by inserting three flat thumbtacks into each hollowed out face, which kept them from stacking.
 
@@ -150,7 +150,7 @@ I also had a problem with the checkers getting stuck together since they are mad
 
 Everything else is fairly straightforward and is built true to the model. As I mentioned before, the main structure used was 1/2 inch (~11mm) plywood, but for thicker pieces of wood I used any blocks or scrap planks that I could get my hands on. The final model, before any extra design, is below (pictures from the front and back respectively.
 
-![Final Front](readme\final_front.JPG)	![Final Back](readme\final_back.JPG)
+![Final Front](readme/final_front.JPG)	![Final Back](readme/final_back.JPG)
 
 
 
