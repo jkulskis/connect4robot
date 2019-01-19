@@ -36,11 +36,11 @@ def connect_four(ard, difficulty):
     ard = ard
     player1 = Player('X', ard)
     if difficulty == 'e':
-        player2 = AIPlayer('O', ard, 'RANDOM', 3)
+        player2 = AIPlayer('O', ard, 'SMART', 3)
     elif difficulty == 'i':
-        player2 = AIPlayer('O', ard, 'RANDOM', 4)
+        player2 = AIPlayer('O', ard, 'SMART', 4)
     elif difficulty == 'h':
-        player2 = AIPlayer('O', ard, 'RANDOM', 5)
+        player2 = AIPlayer('O', ard, 'SMART', 5)
 
     # Make sure one player is 'X' and one player is 'O'.
     if player1.checker not in 'XO' or player2.checker not in 'XO' \
