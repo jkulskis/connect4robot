@@ -6,6 +6,7 @@ class Board:
 		self.height = height
 		self.width = width
 		self.slots = [[' '] * self.width for row in range(self.height)]
+		self.checker_count = {'X': 0, 'O', 0}
 
 	def __repr__(self):
 		""" Returns a string representation for a Board object.
@@ -41,6 +42,7 @@ class Board:
 				break
 			i -= 1
 		self.slots[i][col] = checker
+		self.checkercount[checker] += 1
 
 	def reset(self):
 		""" Sets all the slots to contain a space character

@@ -8,7 +8,7 @@ class AIPlayer(Player):
 		""" Constructor for AIPlayer
 		"""
 		assert(checker == 'X' or checker == 'O')
-		assert(tiebreak == 'LEFT' or tiebreak == 'RIGHT' or tiebreak == 'RANDOM')
+		assert(tiebreak == 'LEFT' or tiebreak == 'RIGHT' or tiebreak == 'RANDOM' or tiebreak == 'SMART')
 		assert(lookahead >= 0)
 
 		super().__init__(checker, ard)
@@ -30,11 +30,23 @@ class AIPlayer(Player):
 			return max_indices[0]
 		if self.tiebreak == 'RIGHT':
 			return max_indices[len(max_indices) - 1]
-		return random.choice(max_indices)
+		if self.tiebreak == 'RANDOM':
+			return random.choice(max_indices)
+		
+		# Smart AIPlayer choice below
+
+		# Return one of the middle columns if a tie
+		if len(max_indices) > 4:
+			return random.choice(max_indices[2:-2])
+		else:
+			return random.choice(max_indices)
+
 
 	def scores_for(self, board):
 		""" determines the called AIPlayer's scores for the columns
 		"""
+		if board.checker_count[self.opponent_checker()] <= 2:
+			return [50] * board.width
 		scores = [50] * board.width
 
 		for col in range(board.width):
