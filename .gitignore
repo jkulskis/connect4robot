@@ -1,0 +1,8 @@
+# Don't track content of these folders
+python\ game\ code/__pycache__
+
+# Don't upload these files as requested by professor due to student plagiarism #
+python\ game\ code/aiPlayer.py
+python\ game\ code/board.py
+python\ game\ code/main.py
+python\ game\ code/player.py
